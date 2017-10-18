@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle linter-prospector",
+        "command": "linter-prospector:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "linter-prospector",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "linter-prospector:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
